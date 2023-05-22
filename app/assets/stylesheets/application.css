@@ -15,37 +15,47 @@
  */
 
  .container {
-  text-align: center;
-  background-color: aquamarine;
+  /* text-align: center;
+  border-left: 10px black;
   padding: 20px;
   border-radius: 10px;
-  padding: 5px
+  padding: 5px */
 
  }
 
  .person {
 
-  background-color: white;
+  background-color: lightgray;
   padding: 25px;
   border-radius: 15px;
+  border: black;
   color: brown;
-  text-align: center;
+  text-align: left;
+  justify-content: center;
   margin: 10px;
+  box-shadow: 20px black;
  }
 
  .coach {
-  background-color: white;
+
+  background-color: lightgray;
   padding: 25px;
   border-radius: 15px;
+  border: black;
   color: brown;
+  text-align: left;
+  justify-content: center;
+  margin: 10px;
+  box-shadow: 20px black;
+ }
+
+ .link {
+   color: black;
+  text-decoration: none;
+  padding: 20px;
+
+ }
+
+ .whole {
   text-align: center;
- }
-
- .text {
-
- }
-
- .btn {
-  background-color: blueviolet;
-  box-shadow: 5px;
  }
